@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <div class="header-logo">
+        クリ★スタ
+      </div>
+      <div class="pc-menu">
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      
+      <div class="sp-menu">
+        <span class="material-symbols-rounded" id="open">
+          menu
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <div class="overlay">
+    <nav>
+        <span class="material-symbols-rounded" id="close">close</span>
+        <ul class="overlay-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+  </div>
+  
+  <section class="hero">
+    <h1>Cresta Design.</h1>
+  </section>
+
+  <main>
+    <section id="about" class="about">
+      <h2>About</h2>
+      <h3>
+        ミニマルで<br>
+        洗練されたデザインを。
+      </h3>
+      <p>近年、ミニマルなデザインが流行しています。そこで弊社では、クライアント企業様新規サービス等の課題に対してミニマルで洗練されたデザインを実現させることで解決のサポートを致します。もちろん全てのサービスにおいてミニマルなデザインが課題解決になるわけではないので、課題や今後のサービスの展開等しっかりとヒアリングを行なった上でご提案させて頂きます。</p>
+    </section>
+
+    <section id="service" class="service">
+      <h2>Service</h2>
+      <div class="container">
+        <div class="pic">
+          <img src="./img/service-image@2x.jpg" alt="カメラの写真">
+        </div>
+        <div class="desc">
+          <h3>
+            リリース時のサポートで<br>
+            サービスのブランディングを
+          </h3>
+          <p>弊社では、リリース時もサポートさせて頂きます。プレスリリース用のサイトや動画制作を通して、サービスのブランディングを行わせて頂きます。</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="pic">
+          <img src="./img/service-image02@2x.jpg" alt="スマホの写真">
+        </div>
+        <div class="desc">
+          <h3>
+            リリース後のサポートで<br>
+            効果を最大化させる
+          </h3>
+          <p>弊社では、リリース後もサポートさせて頂きます。サービスはリリース後に様々な課題にぶつかります。そこでクライアント様と一緒に改善を行うことで、デザインの効果を最大化させます。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="news" class="news">
+      <h2>News</h2>
+      <div class="container">
+        <div class="card">
+          <div class="pic">
+            <img src="./img/card-image1@2x.jpg">
+          </div>
+          <div class="desc">
+            <p>新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="pic">
+            <img src="./img/card-image2@2x.jpg">
+          </div>
+          <div class="desc">
+            <p>新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="pic">
+            <img src="./img/card-image3@2x.jpg">
+          </div>
+          <div class="desc">
+            <p>新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>お問い合わせ</h2>
+      <form action="#">
+        <div>
+          <label>
+            <p>担当者名</p>
+            <input type="text">
+          </label>
+        </div>
+        <div>
+          <label>
+            <p>電話番号</p>
+            <input type="number">
+          </label>
+        </div>
+        <div>
+          <label>
+            <p>メールアドレス</p>
+            <input type="text">
+          </label>
+        </div>
+        <div>
+          <label>
+            <p>お問い合わせ内容</p>
+            <textarea></textarea>
+          </label>
+        </div>
+        <div class="button">
+          <button>送信</button>
+        </div>
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <small>
+      ©︎crest.design all rights reserved
+    </small>
+  </footer>
+
+
+  <script src="main.js"></script>
+</body>
+</html>
